@@ -1,0 +1,19 @@
+* Install oarriaga/face_classification on Tinker Board
+#+BEGIN_SRC shell
+  git clone https://github.com/oarriaga/face_classification.git
+
+  pip install --upgrade setuptools
+  pip install statistics
+  pip install keras
+  pip install pandas
+  pip install matplotlib
+  pip install pycairo
+  pip install imread
+  pip install Pillow
+
+  sudo apt install libhdf5-dev liblapack-dev libatlas-dev libfreetype6-dev libpng-dev libcairo2-dev libtiff5-dev
+#+END_SRC
+
+Add backend		: cairo to ~/.config/matplotlib/matplotlibrc
+
+Have Fun!
