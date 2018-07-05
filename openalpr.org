@@ -1,0 +1,17 @@
+* Install OpenALPR on Tinker Board
+#+BEGIN_SRC shell
+  # Install prerequisites
+
+  git clone https://github.com/openalpr/openalpr.git
+
+  sudo apt install libtesseract-dev libleptonica-dev libopencv-dev liblog4cplus-dev
+  sudo apt install libcurl4-nss-dev
+
+  # Setup the build directory
+  cd openalpr/src
+  mkdir build
+  cd build
+
+  # compile openalpr
+  make
+#+END_SRC
